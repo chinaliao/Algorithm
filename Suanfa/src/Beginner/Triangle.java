@@ -1,7 +1,9 @@
+package Beginner;
+
 import java.util.Scanner;
 
 /**
- * ClassName:Triangle
+ * ClassName:Beginner.Triangle
  * Description:
  */
 public class Triangle {

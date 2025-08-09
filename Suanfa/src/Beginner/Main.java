@@ -1,3 +1,5 @@
+package Beginner;
+
 /**
  * ClassName:${NAME}
  * Description:

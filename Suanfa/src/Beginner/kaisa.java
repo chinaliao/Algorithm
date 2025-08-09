@@ -1,7 +1,9 @@
+package Beginner;
+
 import java.util.Scanner;
 
 /**
- * ClassName:kaisa
+ * ClassName:Beginner.kaisa
  * Description:
  */
 public class kaisa {
@@ -14,6 +16,6 @@ public class kaisa {
             c = (char) ((c-'a'+n)%26+'a');
             sb.append(c);
         }
-        System.out.println(sb.toString());
+        System.out.println(sb);
     }
 }

@@ -1,7 +1,9 @@
+package Beginner;
+
 import java.util.Scanner;
 
 /**
- * ClassName:BookShelf
+ * ClassName:Beginner.BookShelf
  * Description:
  */
 public class BookShelf {

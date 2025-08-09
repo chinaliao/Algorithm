@@ -1,7 +1,9 @@
+package Beginner;
+
 import java.util.Scanner;
 
 /**
- * ClassName:Saolei
+ * ClassName:Beginner.Saolei
  * Description:
  */
 public class Saolei {

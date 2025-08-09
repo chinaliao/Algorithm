@@ -1,7 +1,9 @@
+package Beginner;
+
 import java.util.Scanner;
 
 /**
- * ClassName:COCI_Croatia
+ * ClassName:Beginner.COCI_Croatia
  * Description:
  */
 public class COCI_Croatia {
@@ -9,7 +11,6 @@ public class COCI_Croatia {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
        int  N = n/52;
-       int x; int k;
        boolean flag = false;
         for (int i = 100; i >= 1; i--) {
             if (flag){

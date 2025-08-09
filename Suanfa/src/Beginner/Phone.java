@@ -1,9 +1,11 @@
+package Beginner;
+
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
 /**
- * ClassName:Phone
+ * ClassName:Beginner.Phone
  * Description:
  */
 public class Phone {

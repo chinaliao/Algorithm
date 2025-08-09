@@ -1,7 +1,9 @@
+package Beginner;
+
 import java.util.Scanner;
 
 /**
- * ClassName:CollatzConjecture
+ * ClassName:Beginner.CollatzConjecture
  * Description:
  * 给出一个正整数 n，然后对这个数字一直进行下面的操作：如果这个数字是奇数，那么将其乘 3 再加 1，否则除以 2。经过若干次循环后，最终都会回到 1。
  * 经过验证很大的数字（7×10^11）都可以按照这样的方式比变成 1，所以被称为“冰雹猜想”。例如当 n 是 20，变化的过程是 20→10→5→16→8→4→2→1。
