@@ -19,7 +19,7 @@ public class MinStack {
         if (minStack.isEmpty()||val<=minStack.peek()){
             minStack.push(val);
         }else {
-            minStack.push(stack.peek());
+            minStack.push(minStack.peek());
         }
     }
 

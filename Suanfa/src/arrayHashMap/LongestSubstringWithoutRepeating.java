@@ -1,5 +1,6 @@
 package arrayHashMap;
 
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Scanner;
 import java.util.Set;
@@ -27,5 +28,16 @@ public class LongestSubstringWithoutRepeating {
         }
         System.out.println(set);
         System.out.println(maxLength);
+    }
+    public int lengthOfLongestSubstring(String s) {
+        HashMap<Character,Integer> map = new HashMap<>();
+        int maxLen = 0,left = 0;
+        for (int i = 0; i < s.length(); i++) {
+            char c = s.charAt(i);
+            if (map.containsKey(c)) left = Math.max(left, map.get(c)+1);
+            map.put(c,i);
+            maxLen = Math.max(maxLen, i - left + 1);
+        }
+        return maxLen;
     }
 }

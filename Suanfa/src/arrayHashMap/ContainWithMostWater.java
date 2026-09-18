@@ -8,6 +8,7 @@ package arrayHashMap;
  */
 public class ContainWithMostWater {
     public int maxArea(int[] height) {
+        int []x[] = new int[10][10];
         int left = 0,right = height.length-1;
         int maxArea = 0;
         while(right>left){

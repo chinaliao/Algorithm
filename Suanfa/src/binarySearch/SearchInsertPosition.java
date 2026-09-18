@@ -10,7 +10,7 @@ public class SearchInsertPosition {
         int right = nums.length - 1;
         int mid = -1;
         while (left<=right){
-            mid = (left+right)/2;
+            mid = left+(left-right)/2;
             if (nums[mid]==target){
                 return mid;
             }
@@ -21,6 +21,6 @@ public class SearchInsertPosition {
                 left=mid+1;
             }
         }
-        return mid;
+        return mid+1;
         }
     }

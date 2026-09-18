@@ -14,7 +14,6 @@ public class LongestSequence {
         if (nums == null || nums.length == 0) {
             return 0;
         }
-        Arrays.sort(nums);
         HashSet<Integer> set = new HashSet<>();
         for (int num : nums) {
             set.add(num);
